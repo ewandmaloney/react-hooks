@@ -11,6 +11,7 @@ export const useCounter = (initialValue = 20) => {
     setCounter(counter + value);
   };
   const substractValue = () => {
+    if (counter === 1) return;
     setCounter(counter - 1);
   };
 

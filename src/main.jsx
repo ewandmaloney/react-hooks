@@ -4,9 +4,10 @@ import "./index.css";
 import HooksApp from "./HooksApp.jsx";
 import SimpleForm from "./02-useEffect/SimpleForm.jsx";
 import FormCustomHook from "./02-useEffect/FormWithCustomHook.jsx";
+import MultipleCustomHooks from "./03-examples/MultipleCustomHooks.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <FormCustomHook />
+    <MultipleCustomHooks />
   </StrictMode>
 );

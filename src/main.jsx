@@ -9,6 +9,7 @@ import FocusScreen from "./04-useRef/FocusScreen.jsx";
 import Memorize from "./05-memos/Memorize.jsx";
 import CallbackHook from "./05-memos/CallbackHook.jsx";
 import { Padre } from "./07-tarea-memo/Padre.jsx";
+import "./08-useReducer/intro-reducer.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

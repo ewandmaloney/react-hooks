@@ -11,9 +11,13 @@ import CallbackHook from "./05-memos/CallbackHook.jsx";
 import { Padre } from "./07-tarea-memo/Padre.jsx";
 import "./08-useReducer/intro-reducer.js";
 import TodoApp from "./08-useReducer/TodoApp.jsx";
+import MainApp from "./09-useContext/MainApp.jsx";
+import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <TodoApp />
-  </StrictMode>
+  <BrowserRouter>
+    {/* <StrictMode> */}
+    <MainApp />
+    {/* </StrictMode> */}
+  </BrowserRouter>
 );

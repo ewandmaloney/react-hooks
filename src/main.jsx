@@ -10,9 +10,10 @@ import Memorize from "./05-memos/Memorize.jsx";
 import CallbackHook from "./05-memos/CallbackHook.jsx";
 import { Padre } from "./07-tarea-memo/Padre.jsx";
 import "./08-useReducer/intro-reducer.js";
+import TodoApp from "./08-useReducer/TodoApp.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Padre />
+    <TodoApp />
   </StrictMode>
 );
